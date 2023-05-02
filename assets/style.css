@@ -1,0 +1,61 @@
+* {
+  font-family: 'Satoshi', sans-serif;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+nav {
+  border-bottom: 3px solid white;
+}
+
+#weather {
+  text-shadow: 1.5px 1.5px rgb(0, 0, 0);
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);;
+}
+
+button {
+  color: black;
+  text-shadow: 0;
+  width: 100%;
+  margin: 3px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(87, 38, 71);
+  color: white;
+  box-shadow: 3px 3px 5px rgb(78, 166, 182);
+
+}
+
+.work-feature-block {
+  padding: 10px 0;
+  border-top: 1px solid medium-gray;
+  border-bottom: 1px solid medium-gray;
+}
+
+.work-feature-block-image {
+  display: block;
+  margin: auto;
+  padding: work-feature-image-offset-padding;
+}
+
+.card-body {
+  padding: 10px;
+  border: 2px solid white;
+}
+
+input {
+  flex-basis: 200%;
+}
+
+#weatherData {
+  border: 2px solid white;
+}
