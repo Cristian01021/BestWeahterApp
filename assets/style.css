@@ -7,12 +7,19 @@
   display: none;
 }
 
-nav {
-  border-bottom: 3px solid white;
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#weather {
-  text-shadow: 1.5px 1.5px rgb(0, 0, 0);
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  align-items: center;
+}
+nav {
+  border-bottom: 7px solid rgba(255, 255, 255, 0.308);
 }
 
 body {
@@ -28,34 +35,29 @@ button {
   transition: all 0.2s ease-in-out;
 }
 
-button:hover {
-  background-color: rgb(87, 38, 71);
-  color: white;
-  box-shadow: 3px 3px 5px rgb(78, 166, 182);
 
+button[type="submit"] {
+  background-color: black;
+  color: white;
 }
 
-.work-feature-block {
-  padding: 10px 0;
-  border-top: 1px solid medium-gray;
-  border-bottom: 1px solid medium-gray;
+button:hover {
+  background-color: rgb(173, 78, 49);
+  color: white;
+  box-shadow: 3px 3px 5px rgb(3, 3, 3);
+
 }
 
 .work-feature-block-image {
   display: block;
   margin: auto;
-  padding: work-feature-image-offset-padding;
 }
 
 .card-body {
   padding: 10px;
-  border: 2px solid white;
-}
-
-input {
-  flex-basis: 200%;
+  border: 2px solid rgb(180, 118, 47);
 }
 
 #weatherData {
-  border: 2px solid white;
+  border: 2px solid rgb(168, 118, 43);
 }
